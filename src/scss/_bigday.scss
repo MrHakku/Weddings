@@ -1,0 +1,44 @@
+.bigday {
+  background: linear-gradient(#000000b8, #000000b8),
+    url(https://themepresss.com/tf/html/twain-love/twain-love/assets/images/slider/slide-3.jpg);
+
+  background-position: 50%;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+  padding: 105px 0;
+  color: #fff;
+  h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33px;
+    padding-bottom: 10px;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 66px;
+  }
+  .time {
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-evenly;
+    .box {
+      border-radius: 25px 0;
+      background-color: #4b6c7d95;
+      display: flex;
+      flex-direction: column;
+      padding: 20px 75px;
+      h2 {
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 600px;
+      }
+      .count {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400px;
+      }
+    }
+  }
+}

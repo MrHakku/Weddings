@@ -1,0 +1,456 @@
+.f-gv {
+  font-family: "Great Vibes", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.f-ds {
+  font-family: "Dosis", serif;
+  font-style: normal;
+}
+
+.header {
+  background-color: #626262;
+}
+.header nav {
+  padding: 25px 15px;
+}
+.header nav .f-gv {
+  font-size: 35px;
+  line-height: 20px;
+  color: #fff;
+}
+.header nav .navbar-nav .nav-link {
+  color: #fff;
+}
+.header nav .navbar-nav .nav-link:hover {
+  color: #83a7b6;
+}
+.header nav .navbar-nav .active {
+  color: #83a7b6;
+}
+.header nav .navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.header nav .navbar-nav .dropdown:hover .dropdown-menu .dropdown-sub {
+  display: none;
+}
+.header nav .navbar-nav .dropend {
+  position: relative;
+}
+.header nav .navbar-nav .dropend:hover .dropdown-sub {
+  display: block !important;
+  position: absolute;
+  left: 160px;
+  top: 0;
+}
+
+.home {
+  align-items: center;
+}
+.home img {
+  position: relative;
+}
+.home .box {
+  justify-items: center;
+  position: absolute;
+  right: 35%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(123, 149, 160, 0.7450980392);
+  border-radius: 0 55px;
+  padding: 30px 55px;
+  color: #fff;
+  animation: 5s ease-in-out -2s infinite beat;
+}
+.home .box h4 {
+  font-size: 28px;
+  line-height: 31px;
+  font-weight: 500;
+}
+.home .box h2 {
+  font-size: 72px;
+  line-height: 79px;
+  font-weight: 700;
+}
+.home .box h6 {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 34px;
+}
+
+@keyframes beat {
+  0%, 50%, 100% {
+    transform: scale(1, 1);
+  }
+  30%, 80% {
+    transform: scale(0.92, 0.95);
+  }
+}
+@keyframes pulse {
+  0%, 50%, 100% {
+    background: rgba(123, 149, 160, 0.5098039216);
+  }
+  30%, 80% {
+    background: rgba(123, 149, 160, 0.7450980392);
+  }
+}
+.couple {
+  padding: 55px 0;
+}
+.couple .box {
+  width: 100%;
+  justify-items: center;
+}
+.couple .box h1 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 61px;
+  text-align: center;
+  width: 400px;
+}
+.couple .box img {
+  width: 400px;
+}
+.couple .row .col-lg-6 .image-container {
+  justify-items: center;
+}
+.couple .row .col-lg-6 .image-container .image-1 img {
+  overflow: hidden;
+  border-radius: 0 70px;
+  border: #86aaba solid 2px;
+}
+.couple .row .col-lg-6 .image-container .image-2 img {
+  overflow: hidden;
+  border-radius: 70px 0;
+  border: #86aaba solid 2px;
+}
+.couple .row .col-lg-6 .image-container .image-caption {
+  padding-top: 25px;
+  text-align: center;
+}
+.couple .row .col-lg-6 .image-container .image-caption h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+.couple .row .col-lg-6 .image-container .image-caption p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.couple .row .col-lg-6 .image-container .image-caption .social {
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+}
+.couple .row .col-lg-6 .image-container .image-caption .social i {
+  padding: 5px 8px;
+  border: #86aaba solid 2px;
+  border-radius: 8px 0;
+  color: #86aaba;
+}
+
+.bigday {
+  background: linear-gradient(rgba(0, 0, 0, 0.7215686275), rgba(0, 0, 0, 0.7215686275)), url(https://themepresss.com/tf/html/twain-love/twain-love/assets/images/slider/slide-3.jpg);
+  background-position: 50%;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+  padding: 105px 0;
+  color: #fff;
+}
+.bigday h3 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 33px;
+  padding-bottom: 10px;
+}
+.bigday h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 66px;
+}
+.bigday .time {
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-evenly;
+}
+.bigday .time .box {
+  border-radius: 25px 0;
+  background-color: rgba(75, 108, 125, 0.5843137255);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 75px;
+}
+.bigday .time .box h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 600px;
+}
+.bigday .time .box .count {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400px;
+}
+
+.bigday2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7215686275), rgba(0, 0, 0, 0.7215686275)), url(https://themepresss.com/tf/html/twain-love/twain-love/assets/images/gallery/img-3.jpg);
+  background-position: 50%;
+  background-attachment: scroll;
+  background-size: cover;
+  text-align: center;
+  padding: 105px 0;
+  color: #fff;
+}
+.bigday2 h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 66px;
+}
+.bigday2 p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31px;
+  padding: 25px 350px;
+}
+.bigday2 .botton {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.bigday2 .botton .btn-1 {
+  border-radius: 25% 0;
+  padding: 10px 15px;
+  background-color: white;
+}
+.bigday2 .botton .btn-1:hover {
+  background-color: #85aaba;
+}
+.bigday2 .botton .btn-1:hover a {
+  color: white;
+}
+.bigday2 .botton .btn-1 a {
+  color: #85aaba;
+  text-decoration: none;
+}
+.bigday2 .botton .btn-2 {
+  border-radius: 0 25%;
+  padding: 10px 15px;
+  background-color: white;
+}
+.bigday2 .botton .btn-2:hover {
+  background-color: #85aaba;
+}
+.bigday2 .botton .btn-2:hover a {
+  color: white;
+}
+.bigday2 .botton .btn-2 a {
+  color: #85aaba;
+  text-decoration: none;
+}
+
+.lovestory {
+  padding: 55px 0;
+}
+.lovestory .box {
+  width: 100%;
+  justify-items: center;
+}
+.lovestory .box h1 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 61px;
+  text-align: center;
+  width: 400px;
+}
+.lovestory .box img {
+  width: 400px;
+}
+.lovestory .row .col-lg-6 {
+  align-content: center;
+}
+.lovestory .row .col-lg-6 .story {
+  position: relative;
+  padding-left: 8px;
+  text-align: right;
+}
+.lovestory .row .col-lg-6 .story h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.lovestory .row .col-lg-6 .story h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.lovestory .row .col-lg-6 .story p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.lovestory .row .col-lg-6 .image {
+  justify-self: anchor-center;
+}
+.lovestory .row .col-lg-6 .image img {
+  border-radius: 65px 0;
+  transition: 0.8s;
+}
+.lovestory .row .col-lg-6 .image img:hover {
+  border-radius: 0 65px;
+}
+.lovestory .row.rev .col-lg-6 {
+  align-content: center;
+}
+.lovestory .row.rev .col-lg-6 .heart {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.lovestory .row.rev .col-lg-6 .heart i {
+  background-color: black;
+  color: white;
+}
+.lovestory .row.rev .col-lg-6 .story {
+  position: relative;
+  padding-left: 8px;
+  text-align: left;
+}
+.lovestory .row.rev .col-lg-6 .story h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.lovestory .row.rev .col-lg-6 .story h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.lovestory .row.rev .col-lg-6 .story p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.when {
+  padding: 55px 0;
+}
+.when .box {
+  width: 100%;
+  justify-items: center;
+}
+.when .box h1 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 61px;
+  text-align: center;
+  width: 400px;
+}
+.when .box img {
+  width: 400px;
+}
+.when .tab {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.when .tab button {
+  background-color: inherit;
+  transition: 0.3s;
+  border-radius: 25% 0;
+  border: #c2d4dc solid 8px;
+  color: #85aaba;
+  width: 95px;
+  height: 110px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 50px;
+}
+.when .tab button:hover {
+  border-color: #85aaba;
+  color: white;
+  background-color: #c2d4dc;
+}
+.when .tab button.active {
+  border-color: #85aaba;
+  color: white;
+  background-color: #c2d4dc;
+  display: block !important;
+}
+.when .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  animation: fadeEffect 1s;
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.footer {
+  align-items: center;
+  height: 550px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7215686275), rgba(0, 0, 0, 0.7215686275)), url(https://themepresss.com/tf/html/twain-love/twain-love/assets/images/footer-bg.jpg);
+  background-position: 50%;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+.footer .outer {
+  border: 1px solid rgba(123, 149, 160, 0.5607843137);
+  padding: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 55px 0;
+}
+.footer .outer .box {
+  justify-items: center;
+  text-align: center;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(123, 149, 160, 0.7450980392);
+  border-radius: 55px 0;
+  padding: 35px 35px;
+  border: 1px;
+  color: #fff;
+}
+.footer .outer .box h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 66px;
+}
+.footer .outer .box p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer .botton {
+  justify-content: center;
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  overflow: hidden;
+}
+.footer .botton .btn-1 {
+  border-radius: 50%;
+  padding: 10px 15px;
+  background-color: #85aaba;
+}
+.footer .botton .btn-1 a {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

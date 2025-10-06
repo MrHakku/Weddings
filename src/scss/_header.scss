@@ -1,0 +1,44 @@
+.header {
+  background-color: #626262;
+  nav {
+    padding: 25px 15px;
+
+    .f-gv {
+      font-size: 35px;
+      line-height: 20px;
+      color: #fff;
+    }
+    .navbar-nav {
+      .nav-link {
+        color: #fff;
+        &:hover {
+          color: #83a7b6;
+        }
+      }
+      .active {
+        color: #83a7b6;
+      }
+      .dropdown {
+        &:hover {
+          .dropdown-menu {
+            display: block;
+            .dropdown-sub {
+              display: none;
+            }
+          }
+        }
+      }
+      .dropend {
+        position: relative;
+        &:hover {
+          .dropdown-sub {
+            display: block !important;
+            position: absolute;
+            left: 160px;
+            top: 0;
+          }
+        }
+      }
+    }
+  }
+}
