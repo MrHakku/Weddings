@@ -9,11 +9,6 @@ function timer() {
   const present = new Date().getTime();
   const distance = future - present;
 
-const seconds =1000;
-      minutes= seconds * 60;
-      hours= minutes * 60;
-      days= hours * 24;
-
   let d = Math.floor(distance / 1000 / 60 / 60 / 24);
       h = Math.floor(distance / 1000 / 60 / 60 ) %24;
       m = Math.floor(distance / 1000 / 60 ) % 60;
