@@ -95,10 +95,10 @@ function Home() {
                     graphic designer going to introduce myself.
                   </p>
                   <div className="social">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-facebook" href="www.facebook.com"></i>
+                    <i class="bi bi-twitter" href="www.twitter.com"></i>
+                    <i class="bi bi-instagram" href="www.instagram.com"></i>
+                    <i class="bi bi-linkedin" href="www.linkedin.com"></i>
                   </div>
                 </div>
               </div>
@@ -121,10 +121,10 @@ function Home() {
                     graphic designer going to introduce myself.
                   </p>
                   <div className="social">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-linkedin"></i>
+                    <i class="bi bi-facebook" href="www.facebook.com"></i>
+                    <i class="bi bi-twitter" href="www.twitter.com"></i>
+                    <i class="bi bi-instagram" href="www.instagram.com"></i>
+                    <i class="bi bi-linkedin" href="www.linkedin.com"></i>
                   </div>
                 </div>
               </div>
@@ -136,21 +136,21 @@ function Home() {
         <h3 className="f-gv">We Are Waiting For...</h3>
         <h1 className="f-gv">The Big Day</h1>
         <div className="time">
-          <div className="box">
-            <h2 className="f-gv">00</h2>
-            <div className="count text-uppercase f-ds">days</div>
+          <div className="box day">
+            <h2 className="f-gv days">00</h2>
+            <div className="count text-uppercase f-ds">Days</div>
           </div>
-          <div className="box">
-            <h2 className="f-gv">00</h2>
-            <div className="count text-uppercase f-ds">hours</div>
+          <div className="box hour">
+            <h2 className="f-gv hours">00</h2>
+            <div className="count text-uppercase f-ds">Hours</div>
           </div>
-          <div className="box">
-            <h2 className="f-gv">00</h2>
-            <div className="count text-uppercase f-ds">mins</div>
+          <div className="box minute">
+            <h2 className="f-gv minutes">00</h2>
+            <div className="count text-uppercase f-ds">Minutes</div>
           </div>
-          <div className="box">
-            <h2 className="f-gv">00</h2>
-            <div className="count text-uppercase f-ds">secs</div>
+          <div className="box second">
+            <h2 className="f-gv seconds">00</h2>
+            <div className="count text-uppercase f-ds">Seconds</div>
           </div>
         </div>
       </section>
