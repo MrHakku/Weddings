@@ -10,9 +10,9 @@ function timer() {
   const distance = future - present;
 
   let d = Math.floor(distance / 1000 / 60 / 60 / 24);
-      h = Math.floor(distance / 1000 / 60 / 60 ) %24;
-      m = Math.floor(distance / 1000 / 60 ) % 60;
-      s = Math.floor(distance / 1000 ) % 60;
+  let h = Math.floor(distance / 1000 / 60 / 60 ) %24;
+  let m = Math.floor(distance / 1000 / 60 ) % 60;
+  let s = Math.floor(distance / 1000 ) % 60;
       
 document.querySelector('.days').innerText = d;
 document.querySelector('.hours').innerText = h;
